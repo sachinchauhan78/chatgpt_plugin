@@ -1,0 +1,66 @@
+body{
+    font-family:Arial, sans-serif;
+    background-color: #000000;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    height: 27vh;
+    margin: 20;
+}
+    
+
+
+chat-container {
+background-color: #000000;
+padding: 20px;
+box-shadow: 0 0 100px rgba(red, green, blue, alpha);
+width: 300px;
+border-radius: 3cqh;
+}
+/* Style for the chat box container */
+chat-box {
+    width: 400px; /* Set the width of the chat box */
+    height: 50opx; /* Set the height of the chat box */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Round the corners */
+    padding: 10px; /* Add some padding */
+    overflow-y: auto; /* Allow vertical scrolling */
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  /* Style for individual messages */
+ chat-box p {
+    margin: 5px 0; /* Space between messages */
+  }
+  
+  /* Style for user messages */
+  chat-box p strong {
+    color: #a6b0ba; /* Color for user messages */
+  }
+  
+  /* Style for AI responses */
+  
+  
+  /* Style for the message input field */
+  message-input {
+    width: calc(120% - 100px); /* Full width minus button width */
+    padding: 20px; /* Padding for input */
+    border: 2cap solid #ccc; /* Border for input */
+    border-radius: 5px; /* Round the corners */
+  }
+  
+  /* Style for the send button */
+  send-button {
+    width: 80px; /* Width of the button */
+    padding: 10px; /* Padding for button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Round the corners */
+    background-color: #007bff; /* Background color */
+    color: rgb(38, 176, 218); /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  /* Change button color on hover */
+  send-button:hover{
+    background-color: hsl(213, 38%, 42%); /* Darker shade on hover */
+  }
